@@ -3,6 +3,9 @@ Steps to install FBProphet and its dependencies : https://medium.com/data-folks-
 
 Note : FBProphet works properly only in python version < 3.9, so we used created a virtual env with python 3.8.
 
+Install ZoneInfo/Backports as these are included by default in python > 3.9, but here we will be using python 3.8
+1. Run command : conda install -c conda-forge backports.zoneinfo
+
 Anaconda command to install fbprophet : https://anaconda.org/conda-forge/fbprophet
 
 To run the virtual enviroment in jupyter notebook: (Use this for help : https://www.youtube.com/watch?v=UeDJ9PY_aqg&ab_channel=DataForTraders)
