@@ -1,4 +1,4 @@
 # FBProphet-Time-Series-Forecasting
 Steps to install FBProphet (Currently names prophet)
-install : pip install prophet
-import: from prophet import Prophet
+<li> install : pip install prophet </li>
+<li> import: from prophet import Prophet </li>
